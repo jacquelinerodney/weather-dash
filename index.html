@@ -21,6 +21,9 @@
         </div>
 
         <!-- content container-->
+            <!--search bar-->
+        <!-- city search input-->
+        <!--Boostrap Input-->
         <div class="container fluid">
             <div class="row">
                 <div class= "col-3 m-2">
@@ -29,17 +32,15 @@
                         <input type="text" class="form-control" id="cityInput" placeholder="City Name" aria-label="Recipient's username" aria-describedby="button-addon2">
                         <div class="input-group-append">
                                 <button id= "citySearchBtn" type="button"></button>
-
                         </div>
                  </div>
              </div>
             </div>
         </div>
+         <!-- city search history list-->
+         <div class="searchHistory"></div>
 
-        <!--search bar-->
-        <!-- city search input-->
-        <!-- city search history list-->
-        <!--Boostrap Input-->
+    </div> 
 
         <!-- city forecast container-->
                 <!-- city name-->
@@ -48,9 +49,32 @@
                 <!--humidity-->
                 <!--wind speed-->
                 <!--uv index-->
+                <div class="col-8 m-2">
+                <div class="row-12">
+                    <div class="dailyForecast"></div>
+                            <div class="ml-auto card w-50">
+                            <div id="daily-forecast" class="card-body">
+                    </div>
+                        <div class="row">
+                            <h1 class="cityName">City Name</h1>
+                            <h1 class="currentDate"></h1>
+                        </div>
+                                <div class="row">
+                                 <p class="temp">Temperature:</p>
+                        </div>
+                                 <div class="row">
+                                <p class="humidity">Humidity:</p>
+                        </div>
+                                 <div class="row">
+                                  <p class="windSpeed">Wind Speed:</p>
+                        </div>
+                                 <div class="row">
+                                <p class="uvIndex">UV Index:</p>
+                        </div>
+                    </div>
 
         <!-- five day forecast-->
-
+            
 
 
         <script src="" async defer></script>
